@@ -12,7 +12,7 @@ const ProjectsItems = [
     {
         id: 2,
         projectImg: Project2Img,
-        projectTitle: 'Bsic-Ecoomarce Website',
+        projectTitle: 'Basic-Ecoomarce Website',
         projectDescription: 'This website is made using Ejs,Css,JavaScript,Node js,MongoDb. complete routing,and user authonatiocation',
          githublink: "https://github.com/harday-dwivedi/Project_5",
     }
