@@ -9,7 +9,7 @@ function ProjectsSection() {
                 <h2 className='mb-5'>My projects</h2>
                 <div className='row g-4'>
                     {
-                        ProjectsItems.map((project) => <ProjectCard key={project.id} projectImage={project.projectImg} projectDesc={project. projectDescription} projectLink={project.githublink}/>)
+                        ProjectsItems.map((project) => <ProjectCard key={project.id} projectImage={project.projectImg} projectName={project.projectTitle} projectDesc={project. projectDescription} projectLink={project.githublink}/>)
                     }
                 </div>
             </div>
